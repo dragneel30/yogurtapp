@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "onthego",
-    "slug": "onthego-customer",
+    "name": "yogurt",
+    "slug": "yogurt",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
@@ -21,8 +21,13 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/icon.png",
+      "assets/project_icon.png",
+      "assets/splash.png"
     ],
+    "android": {
+      "package": "com.uhack.yogurtapp"
+    },
     "ios": {
       "supportsTablet": true
     }
